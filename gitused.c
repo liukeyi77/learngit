@@ -26,3 +26,7 @@ git checkout -- readme.txt//可以很轻松地把误删的文件恢复到最新�
 一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
 */
 git push origin master//把本地master分支的最新修改推送至GitHub，现在，你就拥有了真正的分布式版本库！
+/*
+要关联一个远程库，使用命令
+git remote add origin git@server-name:path/repo-name.git
+*/
