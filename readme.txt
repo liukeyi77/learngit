@@ -10,3 +10,7 @@ My stupid boss still prefers SVN
 git add readme.txt
 
 //什么鬼啊
+
+Creating a new branch is quick.
+
+Creating a new branch is quick AND simple.
