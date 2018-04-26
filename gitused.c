@@ -30,3 +30,17 @@ git push origin master//把本地master分支的最新修改推送至GitHub，�
 要关联一个远程库，使用命令
 git remote add origin git@server-name:path/repo-name.git
 */
+
+git checkout -b dev//我们创建dev分支，然后切换到dev分支
+/*
+与上一句等价
+git branch dev
+git checkout dev
+*/
+git branch//命令查看当前分支
+git add readme.txt 
+git commit -m "branch test"
+git checkout master//切换回master分支
+
+git merge dev//把dev分支的工作成果合并到master分支上
+git branch -d dev//删除dev分支了
